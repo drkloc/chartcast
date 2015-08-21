@@ -6,5 +6,5 @@ var receiver = new cast.receiver.Receiver(appid, ns);
 receiver.start();
 
 window.addEventListener('load', function() {
-  $("#message").text("Loaded!");
+  $("#map").text("Loaded!");
 });
